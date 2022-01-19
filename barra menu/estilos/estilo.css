@@ -1,0 +1,28 @@
+a{
+    border:solid 4px lightskyblue;
+}
+
+#horizontal{
+
+    display: none;
+}
+
+
+@media screen and (max-width:768px){
+
+    #horizontal{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:480px){
+
+    #vertical{
+        display: none;
+    }
+    #horizontal{
+        display: inline;
+    }
+
+}
